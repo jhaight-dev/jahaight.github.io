@@ -1,0 +1,95 @@
+html {
+	color: black;
+	font: 14px Arial,Helvetica,sans-serif;
+}
+
+h1 {	
+	font-size: 36px;
+	font-weight: lighter;
+	color: rgb(255,0,0);
+	text-shadow: 2px 4px 1px rgba(255,255,255,0.6);
+}
+
+header nav ul li {
+	font-size: 18pt;
+	color: rgb(255,0,0);
+	text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.6);
+}
+
+.meet-me {
+    font-size: 85px;
+	font-weight: lighter;
+	background-color:white;
+	color: black;
+	text-shadow: #8CA6D9 1px 0 10px;
+	padding-left: 1em;
+	margin-bottom: 0;
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+container {
+	background-color: white;	
+	align-items: center;
+	justify-content: space-around;
+}
+
+article {
+	flex: 1;
+	border: 0;
+}
+
+article:nth-of-type(2) {
+	flex: 1;
+  }
+
+footer {
+	background-color: var(--dark-blue);
+	color: var(--light);
+}
+
+ul {
+	list-style: none;
+}
+a:-webkit-any-link {
+    
+	cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-menu-right {
+color: white;
+text-shadow: 1px 2px 1px rgba(255, 0, 0, 0.6);
+
+}
+
+.nav-menu-left {
+	color: red;
+	text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.6);
+	}
+	
+
+a:visited 
+{
+    text-decoration: none; 
+}
+a:hover {
+    color: white;
+	text-shadow: 1px 2px 1px rgba(128, 128, 128, 0.6);
+}
+
+.nav-menu-right:hover {
+    color: red;
+	text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.6);
+}
+
+.other-pages {
+	color: white;
+	font-size: 36pt;
+	font-weight:lighter;
+}
+
+footer	{
+	color: white;
+	font-size: small;
+}

@@ -1,0 +1,107 @@
+/* layout.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header h1 {
+    display: grid;
+    float: left;
+    border: 0px;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    margin-left: 10ex;
+    padding-top: 0.5ex;
+    padding-right: 1ex;
+    padding-bottom: 0.5ex;
+    padding-left: 1ex;
+}   
+
+header nav {
+    float: right;
+    margin-top: 1ex;
+    margin-right: 50px;
+    padding-top: 1ex;
+    padding-right: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    background-color: black;
+    margin-top: 2ex;
+    margin-right: 1ex;
+    margin-bottom: 1ex;
+    margin-left: 0;
+    
+    padding-top: 0.25ex;
+    padding-right: 1ex;
+    padding-bottom: 0.25ex;
+    padding-left: 1ex;
+}
+
+.clearfix::after {
+    clear: both;
+    content: ""; 
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    background-color: white;
+    margin: 0;  
+    padding: 0;
+    border: 0;
+    align-items: center;
+    justify-content: space-around;
+    
+    /*The first value handles row gap, the second col gap
+    grid-gap: 10px 10px;
+    grid-template-columns: 1fr 1 fr 1 fr;
+    grid-template-rows: 100px;
+    margin: 2rem auto;
+    width: 100%;*/
+}
+
+.highlights {
+    margin: 3rem 0;
+}
+
+.highlights article {
+    float: left; 
+    margin-right: 2%;
+    padding: 1rem;
+    width: 32%;
+}
+.highlights article:last-child {
+    margin-right: 0;
+}
+
+.posts {
+    margin: 3rem 0;
+    background-color: pink;
+}
+
+.post {
+    margin: 2%;
+    padding: 1rem;
+    width: 49%;
+}
+.post:last-child {
+    clear: left;
+    margin-right: 0;
+}
+
+.post header,
+.post .content,
+.post footer {
+    padding: 1rem;
+}
+
+footer {
+    padding: 1rem;
+    text-align: right;
+}
