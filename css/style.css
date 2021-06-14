@@ -1,6 +1,7 @@
 html {
 	color: black;
 	font: 14px Arial,Helvetica,sans-serif;
+	background-color: black;
 }
 
 h1 {	
@@ -47,6 +48,8 @@ article {
 article:nth-of-type(2) {
 	flex: 1;
   }
+
+
 
 footer {
 	background-color: var(--dark-blue);
@@ -98,3 +101,23 @@ footer	{
 	color: white;
 	font-size: small;
 }
+
+.resume {
+	font-size: 11pt;
+	padding: 1em;
+
+}
+
+.rtitle{
+font-size: 22pt;
+font-weight: bold;
+}
+
+.rrole{
+		font-size: 14pt;
+		font-weight: bold;
+		}
+.rbold {
+	font-weight: bold;
+}
+		
