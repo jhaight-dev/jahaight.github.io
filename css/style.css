@@ -1,7 +1,8 @@
 html {
-	color: black;
-	font: 14px Arial,Helvetica,sans-serif;
 	background-color: black;
+	color: white;
+	font: 14px Calibri,Arial,Helvetica,sans-serif;
+	
 }
 
 h1 {	
@@ -13,7 +14,7 @@ h1 {
 
 header nav ul li {
 	font-size: 18pt;
-	color: rgb(255,0,0);
+	color: rgb(255,-,0);
 	text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.6);
 }
 
@@ -34,27 +35,10 @@ header nav ul li {
 }
 
 
-.container {
-	background-color: white;	
-	align-items: center;
-	justify-content: space-around;
-}
-
-article {
-	flex: 1;
-	border: 0;
-}
-
-article:nth-of-type(2) {
-	flex: 1;
-  }
 
 
 
-footer {
-	background-color: var(--dark-blue);
-	color: var(--light);
-}
+
 
 ul {
 	list-style: none;
@@ -77,8 +61,7 @@ text-shadow: 1px 2px 1px rgba(255, 0, 0, 0.6);
 	}
 	
 
-a:visited 
-{
+a:visited {
     text-decoration: none; 
 }
 a:hover {
@@ -98,22 +81,32 @@ a:hover {
 }
 
 footer	{
+	background-color: black;
 	color: white;
+	text-align: right;
 	font-size: small;
+	padding-right: 2em;
 }
 
 .resume {
 	font-size: 11pt;
 	padding: 1em;
+	line-height: 1.5em;
+
 
 }
 
-.rtitle{
+.resume hr {
+margin: 2em 0 ;
+
+}
+
+.rtitle {
 font-size: 22pt;
 font-weight: bold;
 }
 
-.rrole{
+.rrole {
 		font-size: 14pt;
 		font-weight: bold;
 		}
