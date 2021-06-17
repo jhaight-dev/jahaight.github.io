@@ -3,14 +3,31 @@
     display: grid;
     box-sizing: border-box;
     grid-template-rows: auto auto auto;
-    border: 2px solid orange;
-    margin: 0;
-    padding: 0;
-    }   
 
-    .container {
-    border: 1px solid orange;
-    margin: 0;
-    }
+}   
 
+header, header .container, .container, main, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    place-items: center;
+    /* vertical-align: middle; */
+}
 
+header {
+    background-color: black;
+    padding: 1em 1.5em;
+}
+
+/* This controls the left navigation */
+.container h1 {
+    /* border: 5px solid rgb(12, 201, 226); */
+    padding: 0.5em 1em;
+}
+
+/* This controls the right navigation */
+header .container {
+    /* border: 5px solid rgb(250, 8, 189); */
+    column-gap: 40px;
+    align-items:stretch;
+}
