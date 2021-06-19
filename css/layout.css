@@ -2,7 +2,8 @@
 .wrapper {
     display: grid;
     box-sizing: border-box;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 1fr auto auto;
+    /* grid-template-rows: minmax(150px, 25%) 1fr; */
 
 }   
 
@@ -31,3 +32,4 @@ header .container {
     column-gap: 40px;
     align-items:stretch;
 }
+
